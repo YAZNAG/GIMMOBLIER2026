@@ -1,0 +1,36 @@
+# Environment and credentials
+.env
+.env.*
+!.env.example
+auth.json
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Dependencies and generated files
+**/vendor/
+**/node_modules/
+**/public/build/
+**/public/hot
+**/public/storage
+**/.phpunit.cache/
+**/.phpunit.result.cache
+**/storage/*.key
+**/storage/logs/*.log
+**/storage/framework/cache/data/*
+**/storage/framework/sessions/*
+**/storage/framework/views/*
+
+# IDE and operating system
+.idea/
+.vscode/
+.fleet/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+
